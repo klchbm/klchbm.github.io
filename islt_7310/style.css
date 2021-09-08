@@ -2,9 +2,8 @@
 
 h1{
     color:#99cc99;
+    text-align: center;
 }
 Body{
-    color:beige;    
-    text-align: center;
-
+    background-color:beige;
 }

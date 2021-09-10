@@ -1,0 +1,241 @@
+/*
+	main.css - Main stylesheet
+*/
+
+body {
+   background-color:#20498d;
+   margin-left: 0px;
+   margin-right: 0px;
+   font-family: serif;
+   }  
+p{
+    color: #47BAE6;
+}
+h2{
+    color: black;
+}
+/*
+	Split Screen
+*/
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #F5F5F5;
+}
+
+.right {
+  right: 0;
+  background-color: #20498d;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/*
+	Nav Bar
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: #101743;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #20498d;
+}
+
+#footer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+/*
+	Search Engine
+*/
+
+.container-out {
+font-family: "Fira Sans", sans-serif;
+padding: 15px 0;
+}
+
+.container-in {
+width: 95%;
+margin: 0 auto;
+}
+
+.search-container {
+position: relative;
+max-width: 300px;
+margin: 0 auto;
+text-align: center;
+padding: 15px;
+}
+
+.search-title {
+margin-top: 0;
+margin-bottom: 5px;
+color: #1ca0b8;
+}
+
+#search-input {
+width: 90%;
+padding: 13px;
+border-radius: 4px;
+border: 2px solid #1ca0b8;
+font-size: 15px;
+}
+
+#search-input:focus {
+outline: none;
+}
+
+#search-results {
+position: absolute;
+z-index: 10;
+margin: 1px auto;
+background: #1ca0b8;
+width: 90%;
+text-align: left;
+border-radius: 4px;
+border: 2px solid #1ca0b8;
+display: none;
+}
+.search-item {
+color: white;
+cursor: pointer;
+}
+.search-item p {
+margin: 0;
+padding: 10px;
+}
+.search-item:hover {
+background: #2cc7e2;
+}
+#search-data {
+margin-top: 10px;
+color: #1ca0b8;
+}
+#search-data p {
+margin: 0;
+padding: 6px;
+font-size: 16px;
+}
+/*
+	LEVEL 2
+*/
+#fivefirst{
+    display: none;
+}
+#fivesecond{
+   display: none; 
+}
+#fivethird{
+   display: none; 
+}
+#fivefourth{
+   display: none; 
+}
+#fivefith{
+    display: none;
+}
+#fivesixth{
+   display: none; 
+}
+#fiveseventh{
+   display: none; 
+}
+#fiveeighth{
+   display: none; 
+}
+#fiveninth{
+   display: none; 
+}
+#fivetenth{
+   display: none; 
+}
+#fiveeleventh{
+   display: none; 
+}
+#fivetwelvth{
+   display: none; 
+}
+/*
+	LEVEL 1
+*/
+
+#first{
+    display: none;
+}
+#second{
+   display: none; 
+}
+#third{
+   display: none; 
+}
+#fourth{
+   display: none; 
+}
+#fith{
+    display: none;
+}
+#sixth{
+   display: none; 
+}
+#seventh{
+   display: none; 
+}
+#eighth{
+   display: none; 
+}
+#ninth{
+   display: none; 
+}
+#tenth{
+   display: none; 
+}
+#eleventh{
+   display: none; 
+}
+#twelvth{
+   display: none; 
+}

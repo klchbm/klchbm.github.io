@@ -1,0 +1,59 @@
+body {
+   background-color:#20498d;
+   margin-left: 0px;
+   margin-right: 0px;
+   font-family: serif;
+   } 
+h1{
+    color: white;
+    top: 75px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+p{
+    color: white;
+    top: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;   
+}
+/*
+	Nav Bar
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: #101743;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #20498d;
+}
+
+#footer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}

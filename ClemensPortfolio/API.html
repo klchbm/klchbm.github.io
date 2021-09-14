@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cat API</title>
+        <script>
+            
+            /*function getCat(){
+                createCanvas(200,200);
+                loadJSON('https://api.thecatapi.com/v1/images/search', gotData);
+            }
+            function gotData(data){
+               println(data); 
+            }*/
+            
+            
+            
+    $(document).ready(function getCat() {
+            
+         $("#desc").html("Loading...");
+         $.get("https://www.mizzouit.com/2830/challenge9/classInfo.php?content=info",
+
+        function(data){
+            $("#desc").html(data);
+        });  
+    });
+
+
+        </script>
+    </head>
+    <body>
+        <p>This is loaded using an API</p>
+        <div><button onclick="getCat()">Loading...</button></div>
+    </body>
+</html>

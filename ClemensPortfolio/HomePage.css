@@ -1,0 +1,459 @@
+#youtube{
+      width:560px;
+      height:315px;
+      border: 0px;
+      flex: 50%; 
+}
+h2{
+      color: white;
+      font-family: Poppins,sans-serif;
+      margin: 20px;
+}
+body {
+      font-family: sans-serif;
+      background-color: #0c0c0c;
+      margin-left: auto;
+      margin-right: auto; 
+      margin-top: 0px;
+}
+
+/* MAIN IMAGE */
+#pic1{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      position:relative;
+      
+      
+}
+#title{
+      color: white;
+      font-size: 55px;
+      font-weight: 900;
+      position: relative;
+      font-family: sans-serif;
+      position: absolute;
+      width: 100%;
+}
+.centered {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width:100%
+}
+.top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    
+}
+.container {
+     position: relative;
+     text-align: center;
+     color: white;
+     margin-top: 0px;
+     width: 100%;
+}
+
+/* POP UP MESSAGE */
+
+.alert {
+  padding: 20px;
+  background-color: #64C96D;
+  background-image: linear-gradient(to right, #64C96D , #40AF9B);
+  color: white;
+  text-align: center;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.toplink{
+    color: white;
+}
+
+.toplink:hover{
+    color: black;
+}
+
+/* ABOUT */
+#aboutRow{
+    background-color: #40AF9B;
+    margin-top: -10px;
+    display: flex;
+    width: 100%;
+}
+.aboutColumn{
+    flex: 50%;
+    padding: 70px;  
+}
+#about1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#about2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+
+/* ME */
+#Me{
+    background-color: #212529;
+    width: 100%;
+}
+#Bio{
+   color: white;
+   font-family: monospace;
+   font-size: 20px;
+   align-content: center;
+   margin-top: 1x50px;
+   margin-top: 115px;
+   width: 100%;
+
+}
+#pic2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #40AF9B;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 70px;
+}
+
+
+/* REVIEW */
+
+#meet{
+    color: white;
+    font-family: Poppins,sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+#hed{
+    color: white;
+    font-family: Poppins,sans-serif;
+    font-size: 40px;
+    text-align: center; 
+    padding-top: 50px;
+}
+#hed2{
+    color: white;
+    font-family: Poppins,sans-serif;
+    font-size: 25px;
+    text-align: center; 
+    padding-bottom: 50px;
+}
+#review{
+    background-color: #64C96D;
+    background-image: linear-gradient(to right, #64C96D , #40AF9B);
+}
+.column1 {
+    text-align: justify;
+    flex: 50%;
+    text-indent: 20px;
+    padding-right: 15px;
+    justify-content: space-between;
+    
+    box-shadow: 10px 10px 10px #000000;;
+    transition: 0.3s;
+    box-sizing: border-box;
+    
+    width: 100px;
+    height: 155px;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+
+    border-width: medium;
+    border: 5px solid #2a2f34;
+    border-radius: 10px;
+    background-color: #33393f;
+    border-right: 5px solid #484848;
+    border-bottom: 5px solid #484848;            
+}
+
+.column2 {
+    text-align: justify;
+    flex: 50%;
+    text-indent: 20px;
+    padding-right: 15px;
+    justify-content: space-between;
+    
+    box-shadow: 10px 10px 10px #000000;;
+    transition: 0.3s;
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 155px;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+
+    border-width: medium;
+    border: 5px solid #2a2f34;
+    border-radius: 10px;
+    background-color: #33393f;
+    border-right: 5px solid #484848;
+    border-bottom: 5px solid #484848;   
+}
+.row1 {
+    position: relative;
+    padding: 30px;
+    margin: 50px auto;
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap-reverse; 
+    width: 90%;
+    position: relative;
+    content: center;
+}
+.row2 {
+    position: relative;
+    padding: 30px;
+    margin: 50px auto;
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap-reverse; 
+    width: 90%;
+    position: relative;
+    content: center;
+}
+.clearfix:after{
+        content: "";
+        clear: both;
+        display: table; 
+    }  
+#row2Review {
+    position: relative;
+    padding: 30px;
+    margin: 50px auto;
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap-reverse; 
+    width: 90%;
+    position: relative;
+    content: center;
+    display: none;
+    
+}
+.Name{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    text-overflow: ellipsis;
+    
+}
+.Desc{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 25px;
+    position: absolute;
+    text-align: left;
+    text-overflow: ellipsis;
+    padding-right: 5px;
+    
+}
+.star{
+    width: 100px;
+    float: right;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    
+}
+#content{
+    float: right;
+}
+#comment{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 45px;
+    
+}
+
+/* ADD YOUR OWN REVIEW */
+#ReviewName{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+#ReviewDesc{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    margin-left: 25px; 
+    
+}
+#n{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    
+}
+#newReview{
+    height: 100px;
+    width: 50%;
+    position:relative;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    
+}
+#sub{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+#mySelect{
+    size:6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+#finalRating{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -40px;
+    margin-bottom: 80px;
+    float:right;
+}
+#containerRev{
+     position: relative;
+     text-align: center;
+     color: white;
+     margin-top: 0px;
+     width: 100%;
+}
+
+
+/* AJAX LOAD */
+#contentBox{
+    align-content: center;
+}
+
+#loader {
+    display: none;
+    padding-left: 50%;
+    padding-bottom: 30px;
+}
+.loadNode {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 10px 5px;
+    transition: background-color .2s; 
+}
+.loadNode:nth-of-type(1) {
+    background-color: #9dddad;
+}
+.loadNode:nth-of-type(2) {
+    background-color: #64C96D;
+}
+.loadNode:nth-of-type(3) {
+    background-color: #40AF9B;
+}
+
+/* CSS PHONE VIEW: When the width of this document is 600 pixels or less*/
+@media only screen and (max-width: 900px) {
+    .Desc{
+        font-size: 7px;
+    }
+    .star{
+    width: 50px;
+    margin-top: -55px;
+    }
+    .Name{
+    font-size: 15px;
+    }
+    #title{
+      font-size: 15px;
+    }
+    .column {
+        flex: 100%;
+        padding: none;
+    }
+    #pic2{
+        width: 300px;
+        border: 3px solid #40AF9B;
+    }
+    #Bio{
+       font-size: 0px;
+   }
+    #youtube{
+      margin-top: 25px;
+      padding-left: 13px;
+      width: 200px;
+      height: 150px;
+      border: 0px;
+    }
+    #aboutRow{
+        background-color: #40AF9B;
+        margin-top: -10px;
+        width: 100%;
+    }   
+    .aboutColumn{
+        padding: 10px;  
+    }
+    #about1{
+        padding-left: 20px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    #about2{
+        padding-left: 20px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}

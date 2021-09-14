@@ -1,0 +1,171 @@
+<!--
+name: Kate Clemens
+pawprint: KLCHBM
+date: 4.20.2020
+Challenge Final Project
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Kate Clemens x iD Tech</title>
+        
+        <!-- CSS and JS Links -->    
+        <link rel="stylesheet" type="text/css" href="HomePage.css">
+        <script src="HomePage.js"></script>
+        
+        <!-- Nav Bar on Multiple Pages Recourse: https://stackoverflow.com/questions/31954089/how-can-i-reuse-a-navigation-bar-on-multiple-pages-->     
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+        $.get("navBar.html", function(data){
+            $("#placeHolder").replaceWith(data);
+        });   
+        </script>
+        
+        
+    </head>
+    <body>
+    
+        
+        <!-- Pop Up Message Recourse: https://www.w3schools.com/howto/howto_js_alert.asp--> 
+        <div class="alert"> 
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+
+          <a href="CoursePage.html" class="toplink"><strong>Premier online learning. </strong>Right here, right now.</a>
+        </div>
+        
+        
+        <!-- Main Photo --> 
+        <div class="container">
+          <img id="pic1" src="Group.jpg" alt="Group">
+                      
+          <!-- Responsive Text Resource: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_text--> 
+          <div class="centered" id="title">School's out. Our Virtual Tech Camps are in.</div>
+        </div>
+        
+        <!-- About --> 
+        <div id="aboutRow">
+            <div class="aboutColumn">
+                 <p id="about2">Virtual Tech Camps</p>
+                 <p id="about1">Between school closures and social distancing, our kids have an immediate need for live, structured learning and remote collaboration. Make sure to checkout the <a href="CoursePage.html">courses page!</a></p>
+            </div>
+            <div class="aboutColumn">
+                <iframe id="youtube" src="https://www.youtube.com/embed/I90MrjYTvDk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+        </div>
+        
+        
+        
+        <!-- Meet Me -->
+        <div id="Me">
+            <p id="meet">Meet iD Tech Intructor "Clementine"</p>
+        <div class="row">
+            <div class="column">
+                <img id="pic2" src="profilePic.jpg" alt="Group">
+            </div>
+            <div class="column">
+                <p id="Bio">Kate Clemens (Clementine) is an undergraduate student at the University of Missouri studying Information Technology. She works for Mizzou's Engineering office of Diversity and Outreach Initiatives. She just completed her internship for iD Tech at Northwestern and Loyola University in Chicago. She also is apart of minority focused groups, such as; SWE (Society of Women Engineers), DevelopHER, and Girls who Code. Kate is passionate about diversifying the field of technology.</p>
+            </div> 
+        </div>
+        </div>
+        
+
+        <!-- Reviews --> 
+        <div id="review">
+            <p id="hed">5-Star Reviews</p>
+            <p id="hed2">Kids and parents are loving our Virtual Tech Camps and Online Private Lessons, right now.</p>
+            <div class="row1">
+                
+
+                
+                <div class="column1">
+                    <p class="Name">Chloe M</p><img class="star" src="star.png" alt="star"> 
+                    <p class="Desc">"I was very impressed with the level of exposure to coding concepts, professional development tools, and programming challenges that our daughter had. The experience has been enriching and provided a great boost of confidence for our daughter"</p>
+                </div>
+                
+  
+                
+                <div class="column1">
+                    <p class="Name">Steven R</p><img class="star" src="star.png" alt="star">
+                    <p class="Desc">"Thanks for fueling Williams interest and excitement in the world of computer science"</p>
+                </div>
+            </div>
+                
+            <div class="row2">
+                
+                <div class="column2">
+                    <p class="Name">Laura A</p><img class="star" src="star.png" alt="star">
+                    <p class="Desc">"Kate was great! I loved that she responded to what my daughter wanted to get out of the lesson. Her flexibility and her enthusiasm was amazing!"</p>
+                </div >
+                
+                <div class="column2">
+                    <p class="Name">Sabrina E</p><img class="star" src="star.png" alt="star">
+                    <p class="Desc">"Kate was really kind and helpful and I learned alot! I really recommend this!"</p>
+                </div>
+                
+            </div>
+            
+            <div id="row2Review">
+                
+                <div class="column2">
+                    <p id="ReviewName"></p> 
+                    <p id="finalRating"></p>
+                    <p id="ReviewDesc"></p>
+            
+                </div >
+    
+            </div>
+            
+        <!-- Add Your Own Reviews -->
+        <!-- Recource: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit -->
+            <h2 id="comment">Leave a Review</h2>
+            
+            <!-- LOAD ANIMATION -->     
+            <div id="loader">
+                <div class="loadNode"></div>
+                <div class="loadNode"></div>
+                <div class="loadNode"></div>
+            </div>
+            
+
+            <div id="containerRev">          
+                <form action="/action_page.php">
+                  <label id="n" for="fname">Name: <input type="text" id="fname" value=""></label><br>
+                  <br>
+                </form> 
+                          
+                <textarea id="newReview" placeholder="Start Typing Review!"></textarea>    
+                <br>
+                
+                <select id="mySelect">
+                  <option >Zero Star</option>
+                  <option >One Star</option>
+                  <option >Two Stars</option>
+                  <option >Three Stars</option>
+                  <option >Four Stars</option>
+                  <option >Five Stars</option>
+                </select> 
+                <br>
+                
+                <input id="sub" type="submit" value="Submit Review" onclick="submitReview()"> 
+                
+                
+                <p id="contentBox"></p>
+                
+            <p id="footer">Last Updated on 5.8.2020</p>
+            
+        </div>
+            
+     <!-- Nav Bar -->
+    <div id="placeHolder"></div>  
+            
+    </div>
+        
+       
+        
+
+    </body>
+</html>

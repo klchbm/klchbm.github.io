@@ -1,0 +1,163 @@
+<!--
+name: Kate Clemens
+pawprint: KLCHBM
+date: 4.20.2020
+Challenge Final Project
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CoursePage</title>
+        
+        <!-- Link --> 
+        <link rel="stylesheet" type="text/css" href="CoursePage.css">
+        <script src="HomePage.js"></script>
+        
+        <!-- Nav Bar on Multiple Pages Recourse: https://stackoverflow.com/questions/31954089/how-can-i-reuse-a-navigation-bar-on-multiple-pages-->     
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+        $.get("navBar.html", function(data){
+            $("#placeHolder").replaceWith(data);
+        });
+        </script>
+        
+    </head>
+    
+    <body>    
+        <!-- Nav Bar --> 
+        <div id="placeHolder"></div> 
+        
+        <h1 id="Tech">iD Tech Online Courses</h1>
+        <!-- Resource CSS Card: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade -->
+        <!-- Resource CSS Card: https://uicookies.com/css-card-design/ --> 
+        <!-- Resource Course Description: https://www.idtech.com/-->
+        
+  <div class="card">
+    <div class="meta">
+      <div class="photo"><img src="code.png" alt="Code"></div>
+      <ul class="details">
+        <li class="age">Ages: 10-12</li>
+        <li class="skill">Skill Level: Beginner–Advanced</li>
+      </ul>
+    </div>
+    <div class="description">
+    <!-- Recource: https://anki.com/en-us/cozmo.html -->
+      <h1>Python Coding with AI Cozmo</h1>
+      <h2>Course Description</h2>
+      <p>Meet Cozmo, a gifted little guy with a mind of his own. Anki’s adorable robot Cozmo plays games, fist bumps, and uses its big, blue digital eyes to convey convincing emotional range. And its brain uses machine learning, so it gets more savvy as you play with it.</p>
+      <p class="read-more">
+        <a class="lesson" href="https://www.canva.com/design/DADfsZ5lZqM/wIFyfZb6zSfNJ4qj6jm_dA/view?utm_content=DADfsZ5lZqM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Lesson Example</a>
+        <br>
+        <a href="https://idtechonline.as.me/kclemens">Book Now!</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="card alt">
+    <div class="meta">
+      <div class="photo"><img src="people.jpg" alt="Minecraft"></div>
+      <ul class="details">
+        <li class="age">Ages: 10-12</li>
+        <li class="skill">Skill Level: Beginner–Advanced</li>
+      </ul>
+    </div>
+    <div class="description">
+    <!-- Recource: https://www.idtech.com/courses/java-coding-build-mods-with-minecraft -->
+      <h1>Minecraft Modding with Java Coding</h1>
+      <h2>Course Description</h2>
+      <p>Use Java code to add personalized, modded flair to Minecraft! Create your own items and blocks, then design and build an adventure map to incorporate your awesome additions into the game. Practice Java coding fundamentals and game design to create mods and maps to share with friends.</p>
+      <p class="read-more">
+        <a class="lesson" href="https://www.canva.com/design/DADdrteai5o/vdCpC4_cSQPNKRrXesE7MA/view?utm_content=DADdrteai5o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Lesson Example</a>
+        <br>
+        <a href="https://idtechonline.as.me/kclemens">Book Now!</a>
+      </p>
+    </div>
+  </div>
+                <div class="card">
+    <div class="meta">
+      <div class="photo"><img src="roblox.jpg" alt="Roblox"></div>
+      <ul class="details">
+        <li class="age">Ages: 10-12</li>
+        <li class="skill">Skill Level: Beginner–Advanced</li>
+      </ul>
+    </div>
+    <div class="description">
+    <!-- Recource: https://www.idtech.com/courses/virtual-roblox-game-design-make-your-own-obby#/reg-flow/product-availability?prodid=1594 -->
+        
+      <h1>Roblox Game Design</h1>
+      <h2>Course Description</h2>
+      <p>Roblox is one of the fastest-growing game creation platforms on the planet, with more than 100 million players per month and top developers making over $1 million a year. Use Roblox’s built-in editor to create 3D worlds. Publish, share, and play games with friends on any platform from console to mobile. </p>
+      <p class="read-more">
+        <a class="lesson" href="https://www.canva.com/design/DAD6yNqccCI/4p3G2ouVH6SQcVkPHlE3dg/view?utm_content=DAD6yNqccCI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Lesson Example</a>
+        <br>
+        <a href="https://idtechonline.as.me/kclemens">Book Now!</a>
+      </p>
+    </div>
+  </div>
+        
+        
+
+  <div class="card alt">
+    <div class="meta">
+      <div class="photo"><img src="video.jpg" alt="Minecraft"></div>
+      <ul class="details">
+        <li class="age">Ages: 13 - 17</li>
+        <li class="skill">Skill Level: Beginner–Advanced</li>
+      </ul>
+    </div>
+    <div class="description">
+    <!-- Recource: https://www.idtech.com/courses/digital-video-production-start-a-youtube-channel -->
+      <h1>Digital Video Production: Start a YouTube Channel</h1>
+      <h2>Course Description</h2>
+      <p>YouTube is the place to bring your innovative visions to life. Make vlogs, gamecasts, tutorials, and more to establish an online presence and dive into video production. Capture footage with professional equipment and use Adobe Premiere to enhance your project.</p>
+      <p class="read-more">
+        <a class="lesson" href="https://www.canva.com/design/DADynw43p6A/4PpIev5I1MEYnOXbDuTStQ/view?utm_content=DADynw43p6A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Lesson Example</a>
+        <br>
+        <a href="https://idtechonline.as.me/kclemens">Book Now!</a>
+      </p>
+    </div>
+  </div> 
+        
+        <div class="card">
+    <div class="meta">
+      <div class="photo"><img src="maya.jpg" alt="Roblox"></div>
+      <ul class="details">
+        <li class="age">Ages: 13 - 19</li>
+        <li class="skill">Skill Level: Beginner–Advanced</li>
+      </ul>
+    </div>
+    <div class="description">
+    <!-- Recource: https://www.idtech.com/courses/virtual-3d-modeling-and-design-with-autodesk-maya#/reg-flow/product-availability?prodid=1604 -->
+      <h1>Animation with autodesk Maya</h1>
+      <h2>Course Description</h2>
+      <p>Your path to becoming a 3D modeler begins now! Create stunning 3D characters, environmental assets, and more with Autodesk Maya—the powerful toolset that professionals use. As you watch your models take shape, think about how these designs could apply to characters, environments, or even form the basis for making objects in real life!</p>
+      <p class="read-more">
+        <a class="lesson" href="https://www.canva.com/design/DADscqr_ii8/Qazu9w3JBsutVPrpOIMJ-Q/view?utm_content=DADscqr_ii8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Lesson Example</a>
+        <br>
+        <a href="https://idtechonline.as.me/kclemens">Book Now!</a>
+      </p>
+    </div>
+  </div>
+  <div class="card alt">
+    <div class="meta">
+      <div class="photo"><img src="pitop.jpg" alt="Minecraft"></div>
+      <ul class="details">
+        <li class="age">Ages: 10-12</li>
+        <li class="skill">Skill Level: Beginner–Advanced</li>
+      </ul>
+    </div>
+    <div class="description">
+    <!-- Recource: https://www.idtech.com/courses/build-and-code-a-laptop -->
+      <h1>Build and Code Your Own Take Home-Laptop</h1>
+      <h2>Course Description</h2>
+      <p>Build a laptop in this course that combines hardware and software knowledge for a hands-on approach to computer science. Students will put together their pi-top laptop—that's theirs to take home—from a Raspberry Pi and other circuit boards. They'll learn to troubleshoot their hardware assembly and then it's time to boot up the computer—that they built—to experience the thrill of coding in Python. With an introduction to hardware, engineering, and coding, this course has something for everyone.</p>
+      <p class="read-more">
+        <a class="lesson" href="https://www.canva.com/design/DADe85EcOVc/y1gAyX0Oo2qd1EyPpSQSXA/view?utm_content=DADe85EcOVc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Lesson Example</a>
+        <br>
+        <a href="https://idtechonline.as.me/kclemens">Book Now!</a>
+      </p>
+    </div>
+  </div>
+    </body>
+</html>

@@ -6,6 +6,7 @@
     text-align: center;
     padding: 20px 0 20px 0;
     display: none;
+    text-decoration: none;
 }
 
 .nav > li {

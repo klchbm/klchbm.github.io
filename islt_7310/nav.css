@@ -1,33 +1,55 @@
-
-.nav {
-    background-color: #acd3ac;
-    color: #fff;
-    list-style: none;
-    text-align: center;
-    padding: 20px 0 20px 0;
+/*set the active page class to any <li> that has the class*/
+.active a:link {
+    background-color: beige;
 }
 
-.nav > li {
-    margin: 0;
-    padding-right: 0 25px 0 25px; 
-    border: 0;
-    display: inline-block; 
-    width: 125px;
+/*format and position the main navigation menu*/
+nav {
+    top: 0px;   
 }
-
-
-.nav > li > a:hover {
-    color: beige;
-}
-
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
-    
+    padding: 0;
+}
+nav>ul li {
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border: 0;
+    padding: 15px 15px 15px 15px;
+    width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
+    margin: 2px;
 }
 
-li a {
-    font-family: 'Monospace', 'Courier New';
-    text-decoration: none;
-    color: #fff;
+/*format all navigation <a> elements*/
+nav a:link{
+    background-color: beige;
 }
+nav a:hover, nav a:focus {
+    background-color: beige;
+}
+nav a:active{
+    background-color: beige;
+}
+
+/*position sub-menu or drop-down*/
+nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+}
+
+/*special hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+}
+

@@ -1,12 +1,14 @@
 /* External style sheet - Home Page */
-
-h1{
-    color:#99cc99;
-    
-}
 Body{
     background-color:beige;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+h1{
+    position: fixed;
+    padding-right: 100px;
+    color:#99cc99;
+    text-align: center;
 }

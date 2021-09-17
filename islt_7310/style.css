@@ -7,4 +7,8 @@ h1{
 Body{
     background-color:beige;
     text-align: center;
+    font-family: 'Monospace', 'Courier New';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }

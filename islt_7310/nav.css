@@ -19,3 +19,7 @@
 .nav > li > a:hover {
     color: #c1c1c1;
 }
+
+ul {
+        margin: 0;
+}

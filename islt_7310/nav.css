@@ -21,5 +21,10 @@
 }
 
 ul {
-        margin: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }

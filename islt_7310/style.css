@@ -1,6 +1,7 @@
 /* External style sheet - Home Page */
 Body{
-    background-color:beige;
+    background-color: #4aa199;
+    font-family: sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ Body{
 h1{
     position: fixed;
     padding-right: 100px;
-    color:#99cc99;
+    color:white;
     text-align: center;
+    z-index: -1;
 }

@@ -54,6 +54,9 @@ div{
 #quote{
     font-size: 20px;
 }
+#vid{
+
+}
 
 /* Grid */
 .wrapper {
@@ -110,6 +113,19 @@ row4{
   } 
   h3{
     margin-left: -525px;    
+  }
+  #quote{
+    font-size: 20px;
+    margin-left: -525px; 
+    padding-top: 150px;
+  }
+  footer {
+    margin-left: -525px; 
+  }
+  #vid{
+   margin-left: -525px;  
+   width="560";
+   height="315";
   }
 }
 

@@ -15,9 +15,6 @@ body{
     font-size: 20px;
     color: white;
 }
-#vid{
-
-}
 
 /* Grid */
 .wrapper {
@@ -41,7 +38,7 @@ footer {
     grid-column-start: 1;
     grid-column-end: 5;
 }
-row4{
+#div{
     grid-column-start: 1;
     grid-column-end: 5;     
 }
@@ -76,6 +73,9 @@ row4{
   }
   #quote{
     font-size: 20px;
+    margin-left: -150px;
+    margin-right: -150px;
+    margin-top: 30px;
   }
   aside{
     margin-top: 400px;  
@@ -83,6 +83,9 @@ row4{
  .intro{
     text-indent: 50px;  
     margin-right: -530px;   
+  }
+  #vid{
+    margin-left: -180px;
   }
 }
 

@@ -1,6 +1,6 @@
 .wrapper {
     display: grid;
-    grid-template-rows: .5fr 1fr 5fr 5fr .5fr;
+    grid-template-rows: .5fr 1fr 5fr .5fr;
     grid-gap: 10px;
     height: 720px;
 }
@@ -22,10 +22,6 @@ aside{
     grid-column-start: 1;
     grid-column-end: 5;     
 }
-aside2{
-    grid-column-start: 1;
-    grid-column-end: 5;     
-}
 
 .wrapper * {
     justify-content: center;
@@ -39,4 +35,14 @@ aside2{
 }
 body{
     color:black;
+}
+
+/* When the browser is at least 1000px and above */
+@media screen and (max-width: 1000px) {
+  #message{
+    font-size: 20px;
+    }
+    .items{
+    font-size: 20px;
+    }
 }

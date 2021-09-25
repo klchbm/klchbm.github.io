@@ -34,7 +34,7 @@ body{
 }
 .link{
     color: white;
-    text-decoration:"none"
+    text-decoration: none;
 }
 
 /* When the browser is at least 1000px and above */

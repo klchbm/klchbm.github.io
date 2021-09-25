@@ -31,11 +31,6 @@ div{
   margin: 0px;
 }
 
-/* Indenting */
-.a{  
-  text-indent: 50px;    
-}
-
 /* Selects the first letter of a <p> */
 .first-letter::first-letter{
   font-size: 500%;

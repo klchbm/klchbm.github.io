@@ -61,32 +61,28 @@ row4{
     padding-top: 700px;
   }
   #Headshot{
-    margin-top: 140px;
-    margin-left: -525px;
+    margin-top: 55px;
+    margin-left: -25px;
     background: url("Headshot.JPG"); 
     border-radius: 25px;
     background-repeat: repeat;
-
   }
   #resume{
     color: white;
-    margin-left: -525px;
+    margin-left: -25px;
   } 
   h3{
-    margin-left: -525px;    
+    margin-left: -530px;    
   }
   #quote{
     font-size: 20px;
-    margin-left: -525px; 
-    padding-top: 150px;
   }
-  footer {
-    margin-left: -525px;
+  aside{
+    margin-top: 400px;  
   }
-  #vid{
-   margin-left: -525px;  
-   width="560";
-   height="315";
+ .intro{
+    text-indent: 50px;  
+    margin-right: -530px;   
   }
 }
 

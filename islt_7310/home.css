@@ -32,9 +32,12 @@ aside2{
     margin-bottom: 1px;
     margin-right: 1px;
 }
-#welcome{
-    color: black;
+.welcome{
+    text-indent: 50px;  
 }
 #Group{
     
+}
+body{
+    color: black;
 }

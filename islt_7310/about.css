@@ -1,3 +1,6 @@
+body{
+    color: black;
+}
 #Headshot{
     margin-top: 140px;
     background: url("Headshot.JPG"); 
@@ -5,11 +8,12 @@
     background-repeat: repeat;
 
 }
-#intro{
-    color: black;
+.intro{
+    text-indent: 50px;  
 }
 #quote{
     font-size: 20px;
+    color: white;
 }
 #vid{
 

@@ -1,6 +1,6 @@
 .wrapper {
     display: grid;
-    grid-template-columns: .5fr 7fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: .5fr .5fr 1fr .5fr;
     grid-gap: 10px;
     height: 720px;
@@ -16,10 +16,23 @@ header {
 footer {
     grid-column-start: 1;
     grid-column-end: 5;
+    color: white;
+    padding-top: 50px;
 }
 .wrapper * {
     justify-content: center;
     align-items: center;
     margin-bottom: 1px;
     margin-right: 1px;
+}
+body{
+    color: black;
+}
+/* Indenting */
+.a{  
+  text-indent: 50px;  
+}
+.link{
+    color: white;
+    text-decoration:"none"
 }

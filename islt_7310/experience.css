@@ -35,13 +35,23 @@ body{
 .link{
     color: #90ce81;
 }
+#industry{
+    margin: -125px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
 
 /* When the browser is at least 1000px and above */
 @media screen and (max-width: 1000px) {
   aside{
     display: none;
   }
-.a{  
+ .a{  
   text-indent: 0px;  
+  }
+  #industry{
+    margin-left: -350px;
+    margin-right: -600px;
+    margin-bottom: 50px;
   }
 }

@@ -11,16 +11,19 @@ nav {
 header {
     grid-column-start: 1;
     grid-column-end: 5;
+    margin-top: -25px;
 }
 
 footer {
     grid-column-start: 1;
     grid-column-end: 5;
     color: white;
+    padding-top: 200px;
+    padding-bottom: 30px;
 }
 aside{
     grid-column-start: 1;
-    grid-column-end: 5;     
+    grid-column-end: 5; 
 }
 
 .wrapper * {
@@ -34,10 +37,13 @@ aside{
   text-indent: 50px;  
 }
 body{
-    color:black;
+  color:black;
 }
+
 
 /* When the browser is at least 1000px and above */
 @media screen and (max-width: 1000px) {
-
+    #refl{
+      margin-bottom: -150px;
+    }
 }

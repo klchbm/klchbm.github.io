@@ -96,3 +96,49 @@ footer {
     margin-left: -20px;
   } 
 }
+
+
+/* Print stylesheet */
+@media print{
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        font-family: sans-serif !important;
+        font-size: 12px !important;
+        box-shadow: none !important;
+        text-shadow: none !important;      
+    }
+    #hamnav{
+        display: none;
+    }
+    #Headshot{
+        display: none;
+    }
+    #vid{
+        display: none;
+    }
+    #resume{
+        display: none;
+    }
+    
+    
+    h1{
+       margin-left: -100px; 
+    }
+  #left{
+        margin-left: -185px !important;
+        margin-right: -515px !important;
+
+    } 
+    #quote{
+       margin-top: 50px; 
+       margin-left: -100px;
+    }
+    footer{
+        margin-left: -50px;
+    }
+    @page{
+        margin: 1in;
+    }  
+
+}

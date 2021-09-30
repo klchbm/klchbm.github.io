@@ -1,9 +1,3 @@
-/*set the active page class to any <li> that has the class*/
-.active a:link {
-    background-color: beige;
-}
-
-/*format and position the main navigation menu*/
 nav {
     top: 0px;   
 }
@@ -12,32 +6,6 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-nav>ul li {
-    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
-    text-align: center;
-    float: left;
-}
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    border: 0;
-    padding: 15px 15px 15px 15px;
-    width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
-    margin: 2px;
-    color: white;
-}
-
-/*format all navigation <a> elements*/
-nav a:link{
-    background-color: #4aa199;
-}
-nav a:hover, nav a:focus {
-    color: #7cdbca;
-}
-nav a:active{
-    background-color: #4aa199;
-}
-
 /*position sub-menu or drop-down*/
 nav ul>li ul {
     position: absolute;
@@ -47,7 +15,6 @@ nav ul>li ul {
 nav ul ul li {
     float:none;
 }
-
 /*special hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
@@ -55,6 +22,46 @@ nav>ul>li:hover>ul{
 
 
 
+/* (B) HORIZONTAL MENU ITEMS */
+li{
+    display: inline-block;
+    padding: 20px 25px 20px 25px;
+  }
+#hamitems a{
+  color: white;
+  text-decoration: none;
+  
+}
+#hamitems a:hover{ 
+    color: #7cdbca;
+}
+
+/* (C) HIDE HAMBURGER */
+#hamnav label, #hamburger { display: none; }
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* (A) BREAK INTO VERTICAL MENU */
+  #hamitems a{
+    box-sizing: border-box;
+    display: block;
+  }
+
+  /* (B) SHOW HAMBURGER ICON */
+  #hamnav label{
+    display: inline-block;
+    color: white;
+    background: #7cdbca;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+    
+  }
+
+  /* (C) TOGGLE SHOW/HIDE MENU */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
 
 
 

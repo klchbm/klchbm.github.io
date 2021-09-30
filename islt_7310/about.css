@@ -2,7 +2,7 @@ body{
     color: black;
 }
 #Headshot{
-    margin-top: 140px;
+    margin-top: 50px;
     background: url("Headshot.JPG"); 
     border-radius: 25px;
     background-repeat: repeat;
@@ -15,11 +15,15 @@ body{
     font-size: 20px;
     color: white;
 }
+#left{
+    margin: -55px;
+    margin-top: 5px;
+}
 
 /* Grid */
 .wrapper {
     display: grid;
-    grid-template-columns: .5fr 7fr;
+    grid-template-columns: .1fr 3fr;
     grid-template-rows: .5fr .5fr 5fr .5fr;
     grid-gap: 15px;
     height: 720px;
@@ -32,6 +36,7 @@ nav {
 header {
     grid-column-start: 1;
     grid-column-end: 5;
+    padding-bottom: 15px;
 }
 
 footer {
@@ -40,10 +45,12 @@ footer {
 }
 #div{
     grid-column-start: 1;
-    grid-column-end: 5;     
+    grid-column-end: 5; 
+    padding-top: 50px;
 }
 
 .wrapper * {
+  
     justify-content: center;
     align-items: center;
     margin-bottom: 1px;
@@ -53,16 +60,17 @@ footer {
 /* When the browser is at least 1000px and above */
 @media screen and (max-width: 1000px) {
   #intro{
-    font-size: 20px;
     margin: -150px;
     padding-top: 700px;
   }
   #Headshot{
-    margin-top: 55px;
+    margin-top: 400px;
     margin-left: -25px;
     background: url("Headshot.JPG"); 
     border-radius: 25px;
     background-repeat: repeat;
+    width: 200px; 
+    height: 275;
   }
   #resume{
     color: white;
@@ -72,7 +80,6 @@ footer {
     margin-left: -530px;    
   }
   #quote{
-    font-size: 20px;
     margin-left: -150px;
     margin-right: -150px;
     margin-top: 30px;
@@ -86,6 +93,13 @@ footer {
   }
   #vid{
     margin-left: -180px;
+  }
+  #left{
+    margin: -55px;
+    margin-top: 5px;
+    margin-left: -20px;
+  } 
+  #Headshot{
   }
 }
 

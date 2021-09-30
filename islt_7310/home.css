@@ -40,9 +40,6 @@ body{
 }
 /* When the browser is at least 1000px and above */
 @media screen and (max-width: 1000px) {
-  #message{
-    font-size: 20px;
-  }
   #Allstate{
     padding-bottom: 20px;
     padding-top: 20px;

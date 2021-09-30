@@ -31,20 +31,28 @@ Tested:  9.25.21; Passed on Safari and Chrome browsers
  <body>
     
     <div class="wrapper">
-        <nav class="items">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="#experience.html">Experience</a>
-                        <ul>
-                            <li><a href="industry.html">Industry</a></li>
-                            <li><a href="#Link2">Link 2</a></li>
-                            <li><a href="#Link3">Link 3</a></li>
-                        </ul>
-                <li><a href="reflection.html">Reflection</a>
-                <li><a href="#contact.html">Contact</a>
+        <nav id="hamnav" class="items">
+            
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
 
-            </ul>
+            
+            <div id="hamitems" class="dropdown">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="experience.html">Experience</a>
+                            <ul>
+                                <li><a href="Link1">1</a></li>
+                                <li><a href="#Link2">Link 2</a></li>
+                                <li><a href="#Link3">Link 3</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="reflection.html">Reflection</a>
+                    <li><a href="#contact.html">Contact</a>
+
+                </ul>
+            </div>     
         </nav>
         
         <br>

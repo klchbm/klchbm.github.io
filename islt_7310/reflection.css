@@ -18,8 +18,10 @@ footer {
     grid-column-start: 1;
     grid-column-end: 5;
     color: white;
-    padding-top: 200px;
-    padding-bottom: 30px;
+    margin-top:190px;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    padding: 10px;
 }
 aside{
     grid-column-start: 1;

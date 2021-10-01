@@ -18,6 +18,9 @@ footer {
     grid-column-end: 5;
     color: white;
     padding-top: 50px;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    padding: 10px;
 }
 .wrapper * {
     justify-content: center;

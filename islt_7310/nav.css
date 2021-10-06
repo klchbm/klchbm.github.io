@@ -86,8 +86,12 @@ nav>ul>li:hover>ul{
 
   /* (C) TOGGLE SHOW/HIDE MENU */
   #hamitems { display: none; }
+  #hamitems ul li:hover>ul{
+    display: none;
+  }
   #hamnav input:checked ~ #hamitems { display: block; }
 }
+
 
 
 

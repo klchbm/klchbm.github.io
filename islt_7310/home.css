@@ -19,6 +19,7 @@ footer {
     background-image: url(images/footer.jpg);
     background-size: cover;
     padding: 10px;
+    margin-top: -5px;
 }
 aside{
     grid-column-start: 1;

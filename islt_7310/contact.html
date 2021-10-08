@@ -11,9 +11,9 @@ Author:  Kate Clemens
 
 School/Term:  University of Missouri, Fall 2021
 
-Developed: 9.02.21
+Developed: 10.10.2021
 
-Tested:  9.01.21; Passed on Safari and Chrome browsers
+Tested:  10.10.2021; Passed on Safari and Chrome browsers
 
 ******************************************************************************
 
@@ -99,7 +99,6 @@ Tested:  9.01.21; Passed on Safari and Chrome browsers
     
     <br>
     <br>
-    <br>
     
     <img id="Headshot" src="images/Headshot.JPG" alt="Headshot" width="200" height="275">
     
@@ -108,10 +107,37 @@ Tested:  9.01.21; Passed on Safari and Chrome browsers
     
     <figcaption class="center">Kate Clemens Headshot</figcaption>
     
+    <br>
+    <br>
+    
+    <form action="mailto:klchbm@umsystem.edu?Subject=Kate's%Portfolio%Website" method="post" enctype="text/plain">
+    
+        <input type="text" placeholder="First Name" autofocus required> 
+
+        <input type="text" placeholder="Last Name" tabindex="2" required> 
+
+        <input type="email" name="email" id= "email" placeholder="Email Address" tabindex="3" required>
+        
+        <br>
+        <br>
+    
+        <div>
+             <textarea rows="10" cols="55" type="text" placeholder="Type Message..." tabindex="4"  required></textarea>       
+        </div>
+        
+        <br>
+        
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Send</button>
+        </div>   
+        
+    </form>
+    
     <footer class="items">   
     <a href="mailto:klchbm@umsystem.edu" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><img id="mail" class="zoom" src="images/mail.png" alt="mail" width="25" height="25"></a>&nbsp;&nbsp;&nbsp;klchbm@umsystem.edu&nbsp;&nbsp;
 
-    <a href="tel:777.777.7777" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><img id="phone" class="zoom" src="images/phone.png" alt="phone" width="25" height="25"></a>&nbsp;&nbsp;777.777.7777&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©Created by:&nbsp;&nbsp;Kate Clemens 10.03.2021
+    <a href="tel:777.777.7777" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><img id="phone" class="zoom" src="images/phone.png" alt="phone" width="25" height="25"></a>&nbsp;&nbsp;777.777.7777&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©Created by:&nbsp;&nbsp;Kate Clemens 10.10.2021
     </footer>
     
 </body>

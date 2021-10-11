@@ -107,11 +107,11 @@ Tested:  10.10.2021; Passed on Safari and Chrome browsers
     
     <form action="mailto:klchbm@umsystem.edu?Subject=Kate's%20Portfolio%20Website" method="POST" target="_top" enctype="text/plain">
     <!-- action="mailto:klchbm@umsystem.edu?Subject=Kate's%Portfolio%Website" method="post" enctype="text/plain" -->
-        <input type="text" placeholder="First Name" autofocus required> 
+        <input type="text" id="fname" name="fname" placeholder="First Name" autofocus required> 
 
-        <input type="text" placeholder="Last Name" tabindex="2" required> 
+        <input type="text" id="lname" name="lname" placeholder="Last Name" tabindex="2" required> 
 
-        <input type="email" name="email" id= "email" placeholder="Email Address" tabindex="3" required>
+        <input type="email" id="emial" name="email" id= "email" placeholder="Email Address" tabindex="3" required>
         
         <br>
         <br>
@@ -124,7 +124,7 @@ Tested:  10.10.2021; Passed on Safari and Chrome browsers
         
         <div>
             <button id="reset" type="reset">Reset</button>
-            <button type="submit">Send</button>
+            <input class="submitButton" type="submit" value="Submit">
         </div>   
         
     </form>

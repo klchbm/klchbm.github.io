@@ -57,4 +57,10 @@ figcaption {
     background-size: cover;
     padding: 10px;
     }
+    textarea{
+        margin-left: -180px;
+    }
+    #reset{
+        margin-bottom: 20px;
+    }
 }

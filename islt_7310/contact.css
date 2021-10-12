@@ -35,6 +35,9 @@ footer {
     background-image: url(images/footer.jpg);
     background-size: cover;
     padding: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 figcaption {
     background-color: #77c0ba;

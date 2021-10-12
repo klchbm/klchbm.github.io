@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+
+*****************************************************************************
+
+Title:  Template
+
+Use:  Template
+
+Author:  Kate Clemens
+
+School/Term:  University of Missouri, Fall 2021
+
+Developed: 10.10.2021
+
+Tested:  10.10.2021; Passed on Safari and Chrome browsers
+
+******************************************************************************
+
+-->
+<html lang="en-US">
+
+<head>
+               <meta charset="utf-8">
+               <title>Contact Me</title>
+               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav.css">
+               <link rel="stylesheet" href="contact.css">
+    
+                    <!-- Google Font -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+                <!-- Favicon -->
+                <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+                <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+                <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+                <link rel="manifest" href="/site.webmanifest">
+</head>
+
+    <body>
+        
+        
+               <nav id="hamnav" class="items">
+            
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+
+            
+            <div id="hamitems" class="dropdown">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="experience.html">Experience</a>
+                            <ul>
+                                <li><a href="experience.html#iDTechP">iD Tech</a></li>
+                                <li><a href="experience.html#AllstateP">Allstate</a></li>
+                                <li><a href="experience.html#IBMP">IBM</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="reflection.html">Reflection</a>
+                    <li><a href="contact.html">Contact</a>
+
+                </ul>
+            </div>     
+        </nav>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <h1>Contact Me</h1>
+     
+        <br>
+        <br>
+    
+<table class="center">
+<thead>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Kate</td>
+    <td>Clemens</td>
+    <td>kate.clemens@gmail.com</td>
+  </tr>
+</tbody>
+</table>
+    
+    <br>
+    <br>
+    
+    <img id="Headshot" src="images/Headshot.JPG" alt="Headshot" width="200" height="275">
+    
+    <br>
+    <br>
+    
+    <p class="center">Kate Clemens Head shot</p>
+    
+    <br>
+    <br>
+    
+    <form action="mailto:klchbm@umsystem.edu?Subject=Kate's%20Portfolio%20Website" method="POST" target="_top" enctype="text/plain">
+    <!-- action="mailto:klchbm@umsystem.edu?Subject=Kate's%Portfolio%Website" method="post" enctype="text/plain" -->
+        <input type="text" id="fname" name="fname" placeholder="First Name" autofocus required> 
+
+        <input type="text" id="lname" name="lname" placeholder="Last Name" tabindex="2" required> 
+
+        <input type="email" id="emial" name="email" placeholder="Email Address" tabindex="3" required>
+        
+        <br>
+        <br>
+    
+        <div>
+             <textarea id="textarea" name="textarea" rows="10" cols="55" placeholder="Type Message..." tabindex="4"  required></textarea>       
+        </div>
+        
+        <br>
+        
+        <div>
+            <button id="reset" type="reset">Reset</button>
+            <input class="submitButton" type="submit" value="Submit">
+        </div>   
+        
+    </form>
+    
+    <footer class="items">   
+    <a href="mailto:klchbm@umsystem.edu" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><img id="mail" class="zoom" src="images/mail.png" alt="mail" width="25" height="25"></a>&nbsp;&nbsp;&nbsp;klchbm@umsystem.edu&nbsp;&nbsp;
+
+    <a href="tel:777.777.7777" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><img id="phone" class="zoom" src="images/phone.png" alt="phone" width="25" height="25"></a>&nbsp;&nbsp;777.777.7777&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©Created by:&nbsp;&nbsp;Kate Clemens 10.10.2021
+    </footer>
+    
+</body>
+</html>

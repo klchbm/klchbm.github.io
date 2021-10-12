@@ -1,0 +1,147 @@
+body{
+    color: black;
+}
+#Headshot{
+    margin-top: 50px;
+    background: url("Headshot.JPG"); 
+    border-radius: 25px;
+    background-repeat: repeat;
+}
+.intro{
+    text-indent: 50px;  
+}
+#quote{
+    font-size: 20px;
+    color: white;
+}
+#left{
+    margin: -55px;
+    margin-top: 5px;
+}
+
+/* Grid */
+.wrapper {
+    display: grid;
+    grid-template-columns: .1fr 3fr;
+    grid-template-rows: .5fr .5fr 5fr .5fr;
+    grid-gap: 15px;
+    height: 720px;
+
+}
+nav {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding-bottom: 15px;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+#div{
+    grid-column-start: 1;
+    grid-column-end: 5; 
+    padding-top: 50px;
+}
+
+.wrapper * {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+/* When the browser is at least 1000px and above */
+@media screen and (max-width: 1000px) {
+  #intro{
+    margin: -150px;
+    padding-top: 700px;
+  }
+  #Headshot{
+    margin-top: 400px;
+    margin-left: -25px;
+    background: url("Headshot.JPG"); 
+    border-radius: 25px;
+    background-repeat: repeat;
+  }
+  #resume{
+    color: white;
+    margin-left: -25px;
+  } 
+  h3{
+    margin-left: -530px;    
+  }
+  #quote{
+    margin-left: -150px;
+    margin-right: -150px;
+    margin-top: 30px;
+  }
+  aside{
+    margin-top: 400px;  
+  }
+ .intro{
+    text-indent: 50px;  
+    margin-right: -530px;   
+  }
+  #vid{
+    margin-left: -180px;
+  }
+  #left{
+    margin: -55px;
+    margin-top: 5px;
+    margin-left: -20px;
+  } 
+}
+
+
+/* Print stylesheet */
+@media print{
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        font-family: sans-serif !important;
+        font-size: 12px !important;
+        box-shadow: none !important;
+        text-shadow: none !important;      
+    }
+    #hamnav{
+        display: none;
+    }
+    #Headshot{
+        display: none;
+    }
+    #vid{
+        display: none;
+    }
+    #resume{
+        display: none;
+    }
+    
+    
+    h1{
+       margin-left: -100px; 
+    }
+  #left{
+        margin-left: -185px !important;
+        margin-right: -515px !important;
+
+    } 
+    #quote{
+       margin-top: 50px; 
+       margin-left: -100px;
+    }
+    footer{
+        margin-left: -50px;
+    }
+    @page{
+        margin: 1in;
+    }  
+
+}

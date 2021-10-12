@@ -1,0 +1,57 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: .5fr .5fr .5fr 5fr .5fr;
+    grid-gap: 10px;
+    height: 720px;
+}
+nav {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin-top: -5px;
+}
+aside{
+    grid-column-start: 1;
+    grid-column-end: 5;     
+}
+aside2{
+    grid-column-start: 1;
+    grid-column-end: 5;     
+}
+
+.wrapper * {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+.welcome{
+    text-indent: 50px;  
+}
+body{
+    color: black;
+}
+/* When the browser is at least 1000px and above */
+@media screen and (max-width: 1000px) {
+  #Allstate{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+  #Group{
+    padding-bottom: 20px;
+    }
+  #IBM{
+      margin-bottom: -20px;
+    }
+}
